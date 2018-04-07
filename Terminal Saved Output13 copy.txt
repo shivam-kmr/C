@@ -1,0 +1,118 @@
+Last login: Thu Feb  8 11:22:25 on ttys000
+Shivams-MacBook-Pro:~ shivamkumar$ ls -a
+.				.mono
+..				.nbi
+.CFUserTextEncoding		.oracle_jre_usage
+.DS_Store			.python_history
+.IdentityService		.rnd
+.ServiceHub			.ssh
+.Trash				.subversion
+.adobe				.swt
+.android			.templateengine
+.appletviewer			AndroidStudioProjects
+.atom				Applications
+.bash_history			Desktop
+.bash_profile			Documents
+.bash_profile.pysave		Downloads
+.bash_profile.save		Google Drive
+.bash_profile.save.1		Library
+.bash_profile.save.2		Movies
+.bash_sessions			Music
+.config				New Unity Project
+.cups				New Unity Project 1
+.emulator_console_auth_token	Pictures
+.gitconfig			Projects
+.gradle				Public
+.idlerc				account.key
+.lesshst			copyhello
+.local				domain.key
+.mailcap			hello
+.mime.types			text.txt
+Shivams-MacBook-Pro:~ shivamkumar$ cat text.txt
+Hello this 
+is my file
+with multiple lines
+Shivams-MacBook-Pro:~ shivamkumar$ ls
+AndroidStudioProjects	Movies			account.key
+Applications		Music			copyhello
+Desktop			New Unity Project	domain.key
+Documents		New Unity Project 1	hello
+Downloads		Pictures		text.txt
+Google Drive		Projects
+Library			Public
+Shivams-MacBook-Pro:~ shivamkumar$ ls -al
+total 264
+drwxr-xr-x+  56 shivamkumar  staff   1792 Feb  8 11:15 .
+drwxr-xr-x    6 root         admin    192 Jan 20 21:56 ..
+-r--------    1 shivamkumar  staff      7 Sep 10  2016 .CFUserTextEncoding
+-rw-r--r--@   1 shivamkumar  staff  32772 Feb  7 16:15 .DS_Store
+drwxr-xr-x    3 shivamkumar  staff     96 Jul 19  2017 .IdentityService
+drwx------    4 shivamkumar  staff    128 Aug  5  2017 .ServiceHub
+drwx------   22 shivamkumar  staff    704 Feb  7 21:29 .Trash
+drwxr-x--x    3 shivamkumar  staff     96 Oct 19  2016 .adobe
+drwxr-xr-x   18 shivamkumar  staff    576 Jan 26 23:33 .android
+-rw-r--r--    1 shivamkumar  staff    140 Sep 17  2016 .appletviewer
+drwxr-xr-x   17 shivamkumar  staff    544 Jan 30 13:33 .atom
+-rw-r--r--    1 shivamkumar  staff  27497 Feb  8 11:22 .bash_history
+-rw-r--r--    1 shivamkumar  staff    590 Nov 25 17:58 .bash_profile
+-rw-r--r--    1 shivamkumar  staff    167 Feb 24  2016 .bash_profile.pysave
+-rw-------    1 shivamkumar  staff    590 Nov 25 22:13 .bash_profile.save
+-rw-------    1 shivamkumar  staff    590 Nov 25 22:13 .bash_profile.save.1
+-rw-------    1 root         staff    718 Nov 26 03:03 .bash_profile.save.2
+drwx------  137 shivamkumar  staff   4384 Feb  8 11:22 .bash_sessions
+drwxr-xr-x    8 shivamkumar  staff    256 Jul 19  2017 .config
+drwx------    3 shivamkumar  staff     96 Jun 28  2017 .cups
+-rw-------    1 shivamkumar  staff     16 Jan 26 23:33 .emulator_console_auth_token
+-rw-r--r--    1 shivamkumar  staff    208 Sep 25 17:19 .gitconfig
+drwxr-xr-x    7 shivamkumar  staff    224 Jan 26 23:11 .gradle
+drwxr-xr-x    4 shivamkumar  staff    128 May 18  2016 .idlerc
+-rw-------    1 shivamkumar  staff     28 Feb  8 11:10 .lesshst
+drwxr-xr-x    3 shivamkumar  staff     96 Aug  3  2016 .local
+-rw-r--r--    1 shivamkumar  staff   1489 Sep  3  2016 .mailcap
+-rw-r--r--    1 shivamkumar  staff    764 Sep  3  2016 .mime.types
+drwxr-xr-x    3 shivamkumar  staff     96 Jul 16  2017 .mono
+drwxr-xr-x    8 shivamkumar  staff    256 Aug 26 09:32 .nbi
+drwxr-xr-x    3 shivamkumar  staff     96 Mar  4  2016 .oracle_jre_usage
+-rw-------    1 shivamkumar  staff    204 Nov 27 03:23 .python_history
+-rw-------    1 shivamkumar  staff   1024 Dec  7 05:03 .rnd
+drwx------    3 shivamkumar  staff     96 Dec  7 04:44 .ssh
+drwxr-xr-x    6 shivamkumar  staff    192 Feb 16  2016 .subversion
+drwxr-xr-x    3 shivamkumar  staff     96 Sep  2  2016 .swt
+drwxr-xr-x    3 shivamkumar  staff     96 Jul 19  2017 .templateengine
+drwxr-xr-x    7 shivamkumar  staff    224 Jan 27 01:01 AndroidStudioProjects
+drwxr-xr-x    5 shivamkumar  staff    160 Aug  8  2017 Applications
+drwx------+  19 shivamkumar  staff    608 Feb  8 11:22 Desktop
+drwx------+   9 shivamkumar  staff    288 Jan 27 10:03 Documents
+drwx------@  66 shivamkumar  staff   2112 Feb  8 11:03 Downloads
+drwx------@  11 shivamkumar  staff    352 Dec 30 16:25 Google Drive
+drwx------@  84 shivamkumar  staff   2688 Feb  2 08:45 Library
+drwx------+   9 shivamkumar  staff    288 Jan 30 16:59 Movies
+drwx------+  10 shivamkumar  staff    320 Nov  3 18:54 Music
+drwxr-xr-x    5 shivamkumar  staff    160 Jan 31 23:22 New Unity Project
+drwxr-xr-x    5 shivamkumar  staff    160 Feb  1 00:09 New Unity Project 1
+drwx------@  13 shivamkumar  staff    416 Sep  7 00:35 Pictures
+drwxr-xr-x    3 shivamkumar  staff     96 Aug  5  2017 Projects
+drwxr-xr-x+   5 shivamkumar  staff    160 Aug  5  2017 Public
+-rw-r--r--    1 shivamkumar  staff   3247 Dec  7 05:03 account.key
+lrwxr-xr-x    1 shivamkumar  staff      9 Feb  8 11:13 copyhello -> copyhello
+-rw-r--r--    1 shivamkumar  staff   3243 Dec  7 05:03 domain.key
+lrwxr-xr-x    1 shivamkumar  staff      5 Feb  8 11:13 hello -> hello
+-rw-r--r--    1 shivamkumar  staff     43 Feb  8 11:16 text.txt
+Shivams-MacBook-Pro:~ shivamkumar$ mkdir dir
+Shivams-MacBook-Pro:~ shivamkumar$ cd dir
+Shivams-MacBook-Pro:dir shivamkumar$ pwd
+/Users/shivamkumar/dir
+Shivams-MacBook-Pro:dir shivamkumar$ cat > text1.txt
+This is My s2nd file created by cat
+Thats it!
+^C
+Shivams-MacBook-Pro:dir shivamkumar$ cp text1.txt text.txt
+Shivams-MacBook-Pro:dir shivamkumar$ cat text.txt
+This is My s2nd file created by cat
+Thats it!
+Shivams-MacBook-Pro:dir shivamkumar$ ps
+  PID TTY           TIME CMD
+ 3151 ttys000    0:00.05 -bash
+Shivams-MacBook-Pro:dir shivamkumar$ fg
+-bash: fg: current: no such job
+Shivams-MacBook-Pro:dir shivamkumar$ 
